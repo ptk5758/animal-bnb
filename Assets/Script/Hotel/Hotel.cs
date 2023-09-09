@@ -13,4 +13,5 @@ public interface Hotel
         }
         set { instance = value; }
     }
+    public void Summon(GameObject prefab);
 }
